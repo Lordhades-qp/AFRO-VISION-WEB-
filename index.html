@@ -1,37 +1,42 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AFRO-CHRONIQUE</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFRO-CHRONIQUE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="header-top">
-      <a href="https://whatsapp.com/channel/0029Vb2wtQw0QeafaBUPnF2u" class="contact-link">Chaîne WhatsApp</a>
-      <a href="mailto:afrovisionservice1@gmail.com" class="contact-link">Email</a>
-    </div>
-    <h1>AFRO-CHRONIQUE</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="chapters/episode1.html">Épisode 1</a></li>
-        <li><a href="chapters/episode2.html">Épisode 2</a></li>
-        <!-- Ajouter d'autres épisodes ici -->
-      </ul>
-    </nav>
-  </header>
-
-  <section class="content">
+    <header>
+        <h1>AFRO-CHRONIQUE</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#episodes">Épisodes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header><main id="subscription-section">
     <h2>Bienvenue sur AFRO-CHRONIQUE</h2>
     <p>Abonnez-vous pour accéder à vos BD préférées.</p>
-    <button onclick="window.location.href='login.html'">S'abonner</button>
-  </section>
+    <button id="subscribe-button">S'abonner</button>
+</main>
 
-  <footer>
-    <p>&copy; 2025 AFRO-CHRONIQUE. Tous droits réservés.</p>
-  </footer>
+<section id="content" class="hidden">
+    <div id="episodes">
+        <h2>Liste des épisodes</h2>
+        <ul id="chapter-list">
+            <li><a href="episode1.html">Épisode 1</a></li>
+            <li><a href="episode2.html">Épisode 2</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 AFRO-VISION. Tous droits réservés.</p>
+    <p><a href="https://whatsapp.com/channel/0029Vb2wtQw0QeafaBUPnF2u">Chaîne WhatsApp</a></p>
+    <p><a href="mailto:afrovisionservice1@gmail.com">Contactez-nous</a></p>
+</footer>
+
 </body>
-  </html>
+                      </html>
